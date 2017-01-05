@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_option"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="babyshusher.babyshusher.com.babyshusher.OptionActivity"
+    android:background="@drawable/menu_scr__bg"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/quick_start_btn"
+            android:id="@+id/quickstart_btn"
+            android:layout_weight="0.35"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            app:srcCompat="@drawable/faqz"
+            android:id="@+id/fag_btn"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/timer_btn"
+            android:id="@+id/timer_btn"
+            android:layout_weight="0.35"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/equalizer_btn"
+            android:id="@+id/eualizer_btn"
+            android:layout_weight="0.35"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/video_btn"
+            android:id="@+id/video_btn"
+            android:layout_weight="0.3"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/share_btn"
+            android:id="@+id/share_btn"
+            android:layout_weight="0.35"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/feed_back_btn"
+            android:id="@+id/feedback_btn"
+            android:layout_weight="0.35"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rate_btn"
+            android:id="@+id/rate_btn"
+            android:layout_weight="0.3"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/web_btn"
+            android:id="@+id/website_btn"
+            android:layout_weight="0.35"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+</LinearLayout>
